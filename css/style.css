@@ -31,7 +31,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: blanchedalmond;
+  box-shadow: 5px 1px 8px 7px #aaaaaa;
 }
 
 .left-header h2 {
@@ -163,13 +163,51 @@ body {
   font-weight: 700;
   border-radius: 25px;
   float: right;
-  margin-bottom: 40px;
 }
 .main a span {
   padding-left: 10px;
 }
 /* end Popular Collection css */
 
+/* start Featured css */
+
+/* end Featured css */
+.featured {
+  display: flex;
+  margin: 120px 0 80px 0;
+}
+
+.featured-img {
+  width: 50%;
+}
+
+.featured-text {
+  width: 50%;
+}
+.featured-text h2 {
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 20px;
+  margin: 140px 0 20px 0;
+}
+
+.featured-text p {
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-right: 105px;
+  line-height: 1.5em;
+  padding-bottom: 40px;
+}
+
+.featured-text a {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #e22e6d;
+  margin-left: 20px;
+}
 /* start footer css */
 footer {
   background-color: #0a0826;
@@ -194,3 +232,8 @@ h4,
   padding: 10px;
 }
 /* end footer css */
+
+/* responsive css */
+
+@media only screen and (max-width: 480) {
+}
