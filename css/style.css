@@ -1,0 +1,196 @@
+/* Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+/* Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+/* Common CSS End */
+
+/* start header css */
+.header {
+  height: 70px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blanchedalmond;
+}
+
+.left-header h2 {
+  margin-left: 15px;
+  font-size: 30px;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  margin: 0 15px;
+}
+
+.menu ul li a {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* End header css */
+
+/* start  Banner css */
+.banner {
+  display: flex;
+  margin: 50px 0;
+}
+
+.banner-text {
+  width: 50%;
+  margin: 50px 0;
+}
+
+.banner-text h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.banner-text p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  line-height: 1.5em;
+  padding-right: 62px;
+}
+.banner-text a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
+  background-color: #e22e6d;
+  border-radius: 25px;
+}
+.banner-text a span {
+  padding-left: 10px;
+}
+.banner-img {
+  width: 50%;
+  text-align: center;
+}
+.banner-img img {
+  width: 75%;
+}
+
+/* End  Banner css */
+
+/* start brand-logo css */
+
+.brand-logo ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 35px 0;
+}
+
+/* End brand-logo css */
+
+/* Start Popular Collection css */
+.main .title h2 {
+  margin-top: 80px;
+  text-align: center;
+}
+.Collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.item {
+  padding: 20px 15px;
+  border-radius: 10px;
+  box-shadow: 5px 1px 8px 7px #aaaaaa;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 15px 0 10px 0;
+}
+.item h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.item .star {
+  color: #fb8200;
+  font-size: 12px;
+}
+.item span {
+  margin-right: 10px;
+}
+
+.item h4 {
+  margin-top: 10px;
+  color: #787885;
+}
+
+.main a {
+  color: #e22e6d;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 25px;
+  float: right;
+  margin-bottom: 40px;
+}
+.main a span {
+  padding-left: 10px;
+}
+/* end Popular Collection css */
+
+/* start footer css */
+footer {
+  background-color: #0a0826;
+  color: #fff;
+  text-align: center;
+  padding: 80px 0 50px 0;
+}
+
+footer h2,
+p,
+h4,
+.social-icon {
+  padding: 5px 0;
+}
+.social-icon ul {
+  display: flex;
+  justify-content: center;
+}
+.social-icon a {
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;
+}
+/* end footer css */
